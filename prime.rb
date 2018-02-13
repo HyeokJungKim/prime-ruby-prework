@@ -2,7 +2,7 @@
 def prime?(num)
   if num < 0
     return false
-  elsif num == 1 || num == 2 || num == 0
+  elsif num == 1 || num == 0
     return false
   else
     half = num/2.ceil
