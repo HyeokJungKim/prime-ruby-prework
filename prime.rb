@@ -3,7 +3,7 @@ def prime?(num)
   if num < 2
     return false
   else
-    half = (num/2)
+    half = (num/2.0)
     for int in 2..half.ceil do
       if num%int == 0
         return false
