@@ -7,9 +7,8 @@ def prime?(num)
     for int in 2..half do
       if num%int == 0
         return false
-      else
-        return true
       end
     end
+    return true
   end
 end
