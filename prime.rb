@@ -1,8 +1,6 @@
 # Add  code here!
 def prime?(num)
-  if num < 0
-    return false
-  elsif num == 1 || num == 0
+  if num < 2
     return false
   else
     half = num/2.ceil
