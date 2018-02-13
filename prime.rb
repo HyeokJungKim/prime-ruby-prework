@@ -8,9 +8,9 @@ def prime?(num)
     half = num/2.ceil
     for int in 2..half do
       if num%int == 0
-        return true
-      else
         return false
+      else
+        return true
       end
     end
   end
